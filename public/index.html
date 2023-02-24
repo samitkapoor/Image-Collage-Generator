@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Collage Generator</title>
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Image Collage Generator</h1>
+      <h4>Enter the link to images below.</h4>
+      <h4>Add a space between each image link.</h4>
+      <form name="form" action="/collage" method="POST">
+        <textarea
+          placeholder="img1.com img2.com .."
+          name="images"
+          cols="50"
+          rows="10"
+        ></textarea>
+        <button type="submit">Generate Collage</button>
+      </form>
+    </main>
+  </body>
+</html>
