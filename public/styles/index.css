@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 
-    font-family: system-ui;
+    font-family: monospace;
+
+    cursor: default;
 }
 
 body {
@@ -19,13 +21,92 @@ body {
 }
 
 main {
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.title {
+    color: red;
+    font-weight: bold;
+    font-size: 60px;
+    font-style: italic;
+}
+
+.usage {
+    margin-top: 25px;
+
+    text-align: center;
+    color: black;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: rgba(255, 255, 255, 0.813);
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
 form {
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+textarea {
+    background-color: rgba(255, 255, 255, 0.813);
+    padding: 20px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+    color: black;
+    font-size: 12px;
+    font-family: system-ui;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    cursor: text;
+}
+
+textarea::placeholder {
+    color: black;
+    font-style: italic;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+button {
+    padding: 10px 50px;
+    border-radius: 20px;
+
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+
+    transition: 150ms;
+}
+
+button:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
 }
