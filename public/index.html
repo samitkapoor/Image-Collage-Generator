@@ -10,14 +10,17 @@
   </head>
   <body>
     <main>
-      <h1>Image Collage Generator</h1>
-      <h4>Enter the link to images below.</h4>
-      <h4>Add a space between each image link.</h4>
+      <h1 class="title">Image Collage Generator</h1>
+      <p class="usage">
+        Enter image urls below. Please follow the format of input mentioned
+        below to get quick results.
+      </p>
       <form name="form" action="/collage" method="POST">
         <textarea
-          placeholder="img1.com img2.com .."
+          placeholder="Mention a space between image urls like this -
+image.url image.url image.url ..."
           name="images"
-          cols="50"
+          cols="100"
           rows="10"
         ></textarea>
         <button type="submit">Generate Collage</button>
