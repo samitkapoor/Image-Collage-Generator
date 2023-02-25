@@ -19,6 +19,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.post("/collage", (req, res, next) => {
   const photos = req.body.images.split(" ");
 
+  console.log(req.body.images.length);
+
   createCollage(photos, 1920).then((imageBuffer) => {
     console.log(imageBuffer);
 
