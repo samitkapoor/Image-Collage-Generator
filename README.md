@@ -1,6 +1,9 @@
 # Image-Collage-Generator
 A Website to generate image collages!
 
+![](https://github.com/samitkapoor/Image-Collage-Generator/blob/main/preview/2.png)
+![](https://github.com/samitkapoor/Image-Collage-Generator/blob/main/preview/1.png)
+
 https://user-images.githubusercontent.com/77121931/221380827-9966db30-c234-4912-b8cb-779fd0a5cc4a.mp4
 
 ## Follow the steps below to run this project
