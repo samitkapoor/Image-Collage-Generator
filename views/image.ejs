@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image</title>
 
-    <link rel="stylesheet" href="styles/image.css" />
+    <link rel="stylesheet" href="/styles/image.css" />
   </head>
   <body>
-    <main><img src=<%=src%> alt=""></main>
+    <main>
+<img src=<%=src%> alt="">
+
+<a download href=<%=src%>>
+        <button>Download</button>
+      </a>
+    </main>
   </body>
 </html>

@@ -12,17 +12,20 @@ body {
     position: relative;
 
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
 main {
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    gap: 20px;
 
     position: relative;
 }
@@ -32,4 +35,17 @@ main img {
     width: 100%;
 
     object-fit: contain;
+}
+
+button {
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: red;
+
+    color: white;
+    font-weight: bold;
 }
