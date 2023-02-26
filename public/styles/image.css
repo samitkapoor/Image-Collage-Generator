@@ -48,4 +48,6 @@ button {
 
     color: white;
     font-weight: bold;
+
+    cursor: pointer;
 }
