@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Combines multiple images to a photo collage",
   "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
