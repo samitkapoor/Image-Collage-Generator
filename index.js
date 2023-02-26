@@ -30,6 +30,6 @@ app.post("/collage", (req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
+module.exports = app.listen(PORT, () => {
   console.log(`Server is running at ${PORT}`);
 });
