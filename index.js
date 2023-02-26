@@ -22,7 +22,7 @@ app.post("/collage", (req, res, next) => {
   createCollage(photos, 1224).then((imageBuffer) => {
     console.log(imageBuffer);
 
-    fs.writeFileSync("./views/out.png", imageBuffer);
+    fs.writeFileSync("./views/collage.png", imageBuffer);
 
     src = "data:image/jpeg;base64," + imageBuffer.toString("base64");
 
