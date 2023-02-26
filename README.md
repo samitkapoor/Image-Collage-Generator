@@ -3,7 +3,7 @@ A Website to generate image collages!
 
 ![](https://github.com/samitkapoor/Image-Collage-Generator/blob/main/preview/banner-1.png)
 
-https://user-images.githubusercontent.com/77121931/221380827-9966db30-c234-4912-b8cb-779fd0a5cc4a.mp4
+https://user-images.githubusercontent.com/77121931/221430421-321c6f26-1a24-45c5-9935-927c2c647918.mp4
 
 ## Follow the steps below to run this project
 - Make sure you have node.js and related programs installed on your computer.
